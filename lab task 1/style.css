@@ -1,0 +1,52 @@
+.header{
+    font-family:'Times New Roman', Times, serif;
+    padding: 10px;
+    background: cyan;
+    font-size: 30px;
+    text-align: center; 
+}
+
+body{
+    background-color: silver;
+    padding-bottom: 50px;
+}
+
+h4{
+    color: blue;
+}
+
+.nav{
+    background-color:#151B54;
+    overflow: hidden;
+}
+
+.nav a{
+    font-family:'Times New Roman', Times, serif;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+
+.registration{
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 10px;
+    padding: 0.5px;
+	background-color: cyan;
+    height:px;	
+	border-left: 10px solid #008B8B;
+}
+
+.table{
+    background-color:#F5E216 ;
+}
+
+#submit,#reset{
+	background-color: #3090C7;
+	padding: 2px;
+    border-radius: 4px;
+	width: 100px;
+}
