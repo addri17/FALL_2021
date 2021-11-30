@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>JS form validations: </title>
+  <script defer src="script.js"></script>
+</head>
+<body>
+<h1>Registration Form </h1>
+<!-- error print -->
+<div id="error"></div>
+<!--  -->
+<form id="form" action="/" method="GET"  onsubmit="return validateForm()" >
+  <div>
+    <label for="name">First Name: </label>
+    <input id="name" name="name" type="text">
+  </div>
+  <!-- Last Name -->
+  <div>
+    <label for="name1">Last Name: </label>
+    <input id="name1" name="name1" type="text">
+  </div>
+  <!-- age -->
+  <div>
+    <label for="age">Age: </label>
+    <input id="age" name="age" type="text">
+  </div>
+  <!-- designation -->
+  <div>
+  <label for="designation">Designation:</label>
+  <input type="radio" id="designation" name="designation" value="Junior Programmer">
+  <label for="designation">Junior Programmer</label>
+  <input type="radio" id="designation" name="designation" value="Senior Programmer">
+  <label for="designation">Senior Programmer</label>
+  <input type="radio" id="designation" name="designation" value="Project Lead">
+  <label for="designation">Project Lead.</label></td>
+  </div>
+  <!-- Preferred language -->
+  <div>
+    <label for="language">Preferred Languague:</label>
+    <input type="checkbox" id="languague" name="languague" value="Java">
+    <label for="Languague1"> JAVA</label>
+    <input type="checkbox" id="languague" name="languague" value="PHP">
+    <label for="Languague2"> PHP</label>
+    <input type="checkbox" id="languague" name="languague" value="C++">
+    <label for="languague3"> C++</label>
+  </div>
+  
+  <!-- email -->
+  <div>
+    <label for="email">Email: </label>
+    <input id="email" name="email" type="email">
+  </div>
+
+  <div>
+    <label for="password">Password</label>
+    <input id="password" name="password" type="password">
+  </div>
+<!-- file -->
+  <div>
+    <label for="myfile">Please Choose a file:</label>
+    <input type="file" id="myfile" name="myfile">
+  </div>
+  <button type="submit">Submit</button>
+</form>
+
+<div id="display"></div>
+</body>
+</html>
+
